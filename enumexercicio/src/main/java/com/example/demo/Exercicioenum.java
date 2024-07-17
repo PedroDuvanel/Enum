@@ -63,4 +63,26 @@ public class Exercicioenum {
 }
 
 
+public enum Regiao {
+
+    NORTE("Norte"),
+    NORDESTE("Nordeste"),
+    CENTRO_OESTE("Centro-Oeste"),
+    SUDESTE("Sudeste"),
+    SUL("Sul");
+
+    private final String nome;
+
+    Regiao (String nome){
+        this.nome = nome;
+    }
+    
+    public String getNome() {
+        return nome;
+    }
+    
+
+}
+
+
 }
